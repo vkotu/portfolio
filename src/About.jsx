@@ -39,7 +39,7 @@ const About = () => {
           </li>
           <li>
             <a
-              href="https://docs.google.com/document/d/1-eDoloAiz6YbF_QpQVXu-XFNLuxnDNOLo1nIjqVOOSA/edit#"
+              href="https://drive.google.com/file/d/10oQJzBujSxMy23K1a5oUJgLjECFCfTdD/view?usp=sharing"
               className="button"
               target="_blank"
             >
@@ -83,13 +83,13 @@ const About = () => {
                 <li>Skiing</li>
               </ul>
             </div>
-            <img src="9.png" alt="Screenshot of the Wall of Wonder." />
+            <img src="9.png" alt="Screenshot of profile pic." />
           </article>
         </section>
       </div>
       <div className="gradient"></div>
       <footer>
-        <h2>Venkat Kotu &middot; Sr Software Engineer</h2>
+        <h2>Venkat Kotu - Sr Software Engineer</h2>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/venkatasaireddy/">

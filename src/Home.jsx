@@ -39,7 +39,7 @@ const Home = () => {
           </li>
           <li>
             <a
-              href="https://docs.google.com/document/d/1-eDoloAiz6YbF_QpQVXu-XFNLuxnDNOLo1nIjqVOOSA/edit#"
+              href="https://drive.google.com/file/d/10oQJzBujSxMy23K1a5oUJgLjECFCfTdD/view?usp=sharing"
               className="button"
               target="_blank"
             >
@@ -90,7 +90,7 @@ const Home = () => {
                 <li>MySQL</li>
               </ul>
             </div>
-            <img src="6.png" alt="Screen shot of paypal merchant home page." />
+            <img src="6.png" alt="Screen shot of smart plate project." />
           </article>
           <article className="reverse">
             <div className="text">
@@ -200,7 +200,7 @@ const Home = () => {
       </div>
       <div className="gradient"></div>
       <footer>
-        <h2>Venkat Kotu &middot; Senior Software Engineer</h2>
+        <h2>Venkat Kotu - Senior Software Engineer</h2>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/venkatasaireddy/">
