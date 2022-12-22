@@ -39,7 +39,7 @@ const About = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/10oQJzBujSxMy23K1a5oUJgLjECFCfTdD/view?usp=sharing"
+              href="https://drive.google.com/file/d/17ZtCNdYFylCuAvIPpiaqB4_4fdfhW5el/view?usp=sharing"
               className="button"
               target="_blank"
             >

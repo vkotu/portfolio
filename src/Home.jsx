@@ -39,7 +39,7 @@ const Home = () => {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/10oQJzBujSxMy23K1a5oUJgLjECFCfTdD/view?usp=sharing"
+              href="https://drive.google.com/file/d/17ZtCNdYFylCuAvIPpiaqB4_4fdfhW5el/view?usp=sharing"
               className="button"
               target="_blank"
             >
@@ -60,7 +60,7 @@ const Home = () => {
           <a href="https://paypal.com/mep">PayPal</a>.
         </p>
         <p>
-          I'm leading a team of 6 engineers doing full stack things with
+          I'm leading a team of engineers doing full stack things with
           bleeding-edge JavaScript, ReactJS, Node.js, and GraphQL etc. to enable
           better products for Merchants.
         </p>
