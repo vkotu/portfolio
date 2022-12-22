@@ -51,34 +51,39 @@ const About = () => {
       <div className="gradient"></div>
       <div className="section-blue">
         <section id="projects">
-          <h2>Projects I'm proud of</h2>
+          <h2>About Me!</h2>
           <article>
             <div className="text">
-              <h4>Latest Project</h4>
-              <h3>Wall of Wonder</h3>
+              <h3>Hi! I'm Venkat Kotu</h3>
               <p className="blackbox">
-                Description of the project. This should be fairly concise while
-                also describing the key components that you developed or worked
-                on. It can be as long as you need it to be but should at least
-                be a few sentences long. Be sure to include specific links
-                anywhere in the description. A link looks like{" "}
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
-                  this
-                </a>
-                , and multiple links look <a href="#">like this</a> and{" "}
-                <a href="#">like this</a>.
+                <p>
+                  I build JavaScript applications, I'm equipped with the right
+                  tools, and can absolutely function independently of them to
+                  deliver fast, resilient optimized solutions. Security,
+                  performance, and accessibility are top priorities on my radar.
+                  I've built products for big enterprises like PayPal, Yahoo,
+                  and Broadcom ranging from micro components to complex
+                  monolithic products with focus on fast, elegant and accessible
+                  user experiences
+                </p>
+                <p>
+                  Currently, I work at Paypal as a member of technical staff and
+                  accessibility advocate crafting thoughtful and inclusive
+                  experiences that adhere to web standards for millions of
+                  merchants across the world. Before now, I was a Full Stack
+                  Software Engineer III at Yahoo, where I worked on Yahoo
+                  add-platform UI running their campaign and reporting.
+                </p>
               </p>
-              <h4>Technologies used include:</h4>
+              <h4>Hobbies</h4>
               <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SVG</li>
+                <li>Solving Problems</li>
+                <li>Learn new things</li>
+                <li>Board games</li>
+                <li>Skiing</li>
               </ul>
             </div>
-            <img
-              src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
-              alt="Screenshot of the Wall of Wonder."
-            />
+            <img src="9.png" alt="Screenshot of the Wall of Wonder." />
           </article>
         </section>
       </div>

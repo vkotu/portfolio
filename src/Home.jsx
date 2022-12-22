@@ -16,9 +16,9 @@ const Home = () => {
           <li>
             <a href="#projects">Projects</a>
           </li>
-          {/* <li>
+          <li>
             <Link to="/about">About</Link>
-          </li> */}
+          </li>
           <li>
             <a href="#contact">Contact</a>
           </li>
@@ -53,7 +53,7 @@ const Home = () => {
           Hi, my name is <span>Venkat Kotu.</span>
         </p>
 
-        <h2>Passionate Javascript Developer</h2>
+        <h2>Passionate JavaScript Developer</h2>
 
         <p>
           Currently, I'm working as a memeber of techinical staff at{" "}
@@ -71,13 +71,36 @@ const Home = () => {
           <h2>Projects I'm proud of</h2>
           <article>
             <div className="text">
-              <h4>PayPal's Project</h4>
-              <h3>Merchant Money Dashboard</h3>
+              <h4>Master's Course Project</h4>
+              <h3>Smart Plate!</h3>
               <p className="blackbox">
-                Did a complete redesign and built the merchant money dashboard
-                experience from scratch that was built previously using legacy
-                libraries and practices. You can see the experience by signing
-                up for a{" "}
+                Project is about providing the nutritional facts for a food
+                product through RFID scanning. . You can watch the working demo
+                in my youtube channel{" "}
+                <a href="https://www.youtube.com/watch?v=a3w_cn20VNg">click</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Jquery</li>
+                <li>Node.js</li>
+                <li>Socket.io</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+            <img src="6.png" alt="Screen shot of paypal merchant home page." />
+          </article>
+          <article className="reverse">
+            <div className="text">
+              <h4>PayPal's Project</h4>
+              <h3>Merchant Funds Management</h3>
+              <p className="blackbox">
+                Did a complete redesign and built the merchant's money
+                dashboard/ money transfers experiences from scratch that was
+                built previously using legacy libraries and practices. You can
+                see the experience by signing up for a{" "}
                 <a href="https://www.paypal.com/us/webapps/mpp/account-selection">
                   business
                 </a>{" "}
@@ -98,19 +121,19 @@ const Home = () => {
               </ul>
             </div>
             <img
-              src="/2.png"
+              src="/5.png"
               alt="Screenshot of the paypal merchant money dashboard."
             />
           </article>
-          <article className="reverse">
+          <article>
             <div className="text">
               <h4>PayPal's Project</h4>
               <h3>Merchant's Home Page</h3>
               <p className="blackbox">
-                Co-created an internal micro-front-end framework which is the
-                backbone concept for this merchant home page. All the components
-                in the page are independent and can be built with any tech
-                stack. You can see the experience by signing up for a{" "}
+                Built micro front end components hosted on internal micro front
+                end framework. All the components in the page are independent
+                and can be built with any tech stack. You can see the experience
+                by signing up for a{" "}
                 <a href="https://www.paypal.com/us/webapps/mpp/account-selection">
                   business
                 </a>{" "}
@@ -130,7 +153,7 @@ const Home = () => {
             </div>
             <img src="1.png" alt="Screen shot of paypal merchant home page." />
           </article>
-          <article>
+          <article className="reverse">
             <div className="text">
               <h4>PayPal's Project</h4>
               <h3>Merchant's Tenancy Level Experience</h3>
