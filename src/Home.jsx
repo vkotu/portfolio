@@ -16,9 +16,9 @@ const Home = () => {
           <li>
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          {/* <li>
             <Link to="/about">About</Link>
-          </li>
+          </li> */}
           <li>
             <a href="#contact">Contact</a>
           </li>
@@ -71,84 +71,88 @@ const Home = () => {
           <h2>Projects I'm proud of</h2>
           <article>
             <div className="text">
-              <h4>Latest Project</h4>
-              <h3>Wall of Wonder</h3>
+              <h4>PayPal's Project</h4>
+              <h3>Merchant Money Dashboard</h3>
               <p className="blackbox">
-                Description of the project. This should be fairly concise while
-                also describing the key components that you developed or worked
-                on. It can be as long as you need it to be but should at least
-                be a few sentences long. Be sure to include specific links
-                anywhere in the description. A link looks like{" "}
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
-                  this
-                </a>
-                , and multiple links look <a href="#">like this</a> and{" "}
-                <a href="#">like this</a>.
+                Did a complete redesign and built the merchant money dashboard
+                experience from scratch that was built previously using legacy
+                libraries and practices. You can see the experience by signing
+                up for a{" "}
+                <a href="https://www.paypal.com/us/webapps/mpp/account-selection">
+                  business
+                </a>{" "}
+                and accessing this{" "}
+                <a href="https://www.paypal.com/businesswallet/money">page</a>.
+                There are ~2 million active users per month using this dashboard
+                and performing various actions.
               </p>
               <h4>Technologies used include:</h4>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>SVG</li>
+                <li>ReactJS</li>
+                <li>Redux</li>
+                <li>Node.js</li>
+                <li>Graphql</li>
+                <li>Webpack</li>
               </ul>
             </div>
             <img
-              src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
-              alt="Screenshot of the Wall of Wonder."
+              src="/2.png"
+              alt="Screenshot of the paypal merchant money dashboard."
             />
           </article>
           <article className="reverse">
             <div className="text">
-              <h4>Bootcamp Project</h4>
-              <h3>Feed-A-Star-Mole Game</h3>
+              <h4>PayPal's Project</h4>
+              <h3>Merchant's Home Page</h3>
               <p className="blackbox">
-                Description of the project. This should be fairly concise while
-                also describing the key components that you developed or worked
-                on. It can be as long as you need it to be but should at least
-                be a few sentences long. Be sure to include specific links
-                anywhere in the description. A link looks like
-                <a href="https://frontendmasters.github.io/bootcamp/mole">
-                  this
-                </a>
-                , and multiple links look <a href="#">like this</a> and
-                <a href="#">like this</a>.
+                Co-created an internal micro-front-end framework which is the
+                backbone concept for this merchant home page. All the components
+                in the page are independent and can be built with any tech
+                stack. You can see the experience by signing up for a{" "}
+                <a href="https://www.paypal.com/us/webapps/mpp/account-selection">
+                  business
+                </a>{" "}
+                and accessing this{" "}
+                <a href="https://www.paypal.com/mep/dashboard">page</a>.
               </p>
               <h4>Technologies used include:</h4>
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>Redux</li>
+                <li>Node.js</li>
+                <li>Graphql</li>
+                <li>Webpack</li>
               </ul>
             </div>
-            <img
-              src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-5.png"
-              alt="Screenshot of the Frontend Masters Bootcamp."
-            />
+            <img src="1.png" alt="Screen shot of paypal merchant home page." />
           </article>
           <article>
             <div className="text">
-              <h4>Photography Project</h4>
-              <h3>Wall of Wonder Collection</h3>
+              <h4>PayPal's Project</h4>
+              <h3>Merchant's Tenancy Level Experience</h3>
               <p className="blackbox">
-                Description of the project. This should be fairly concise while
-                also describing the key components that you developed or worked
-                on. It can be as long as you need it to be but should at least
-                be a few sentences long. Be sure to include specific links
-                anywhere in the description. A link looks like
-                <a href="https://frontendmasters.github.io/grid-flexbox-v2/grid-figure-figcaption">
-                  this
-                </a>
-                , and multiple links look <a href="#">like this</a> and
-                <a href="#">like this</a>.
+                This project is developed to address pain points of large
+                merchants like ebay, Amazon etc. Architected, designed, and co
+                implemented this project by collaborating with various cross
+                functional teams across PayPal to achieve this.
               </p>
               <h4>Technologies used include:</h4>
               <ul>
                 <li>HTML</li>
-                <li>CSS Grid</li>
+                <li>CSS</li>
+                <li>ReactJS</li>
+                <li>Redux</li>
+                <li>Node.js</li>
+                <li>Graphql</li>
+                <li>Webpack</li>
               </ul>
             </div>
             <img
-              src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-4.png"
+              src="3.png"
               alt="Screenshot of the Wall of Wonder Collections."
             />
           </article>
@@ -173,7 +177,7 @@ const Home = () => {
       </div>
       <div className="gradient"></div>
       <footer>
-        <h2>Venkat Kotu &middot; Sr Software Engineer</h2>
+        <h2>Venkat Kotu &middot; Senior Software Engineer</h2>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/venkatasaireddy/">

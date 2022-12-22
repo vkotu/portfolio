@@ -7,8 +7,9 @@
     "format": "prettier --write \"src/**/*{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html",
-    "build": "parcel build",
+    "dev": "rm -rf dist && parcel src/index.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build src/index.html",
     "start": "parcel"
   },
   "author": "vkotu",
@@ -19,12 +20,18 @@
     "react-router-dom": "^6.6.0"
   },
   "devDependencies": {
-    "parcel": "^2.8.2",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.8",
+    "parcel": "^2.8.2",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "parcel-reporter-static-files-copy": "^1.4.0",
     "prettier": "^2.8.1"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
   }
 }
