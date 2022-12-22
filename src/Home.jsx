@@ -71,29 +71,6 @@ const Home = () => {
           <h2>Projects I'm proud of</h2>
           <article>
             <div className="text">
-              <h4>Master's Course Project</h4>
-              <h3>Smart Plate!</h3>
-              <p className="blackbox">
-                Project is about providing the nutritional facts for a food
-                product through RFID scanning. . You can watch the working demo
-                in my youtube channel{" "}
-                <a href="https://www.youtube.com/watch?v=a3w_cn20VNg">click</a>
-              </p>
-              <h4>Technologies used include:</h4>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Jquery</li>
-                <li>Node.js</li>
-                <li>Socket.io</li>
-                <li>MySQL</li>
-              </ul>
-            </div>
-            <img src="6.png" alt="Screen shot of smart plate project." />
-          </article>
-          <article className="reverse">
-            <div className="text">
               <h4>PayPal's Project</h4>
               <h3>Merchant Funds Management</h3>
               <p className="blackbox">
@@ -125,7 +102,7 @@ const Home = () => {
               alt="Screenshot of the paypal merchant money dashboard."
             />
           </article>
-          <article>
+          <article className="reverse">
             <div className="text">
               <h4>PayPal's Project</h4>
               <h3>Merchant's Home Page</h3>
@@ -153,7 +130,7 @@ const Home = () => {
             </div>
             <img src="1.png" alt="Screen shot of paypal merchant home page." />
           </article>
-          <article className="reverse">
+          <article>
             <div className="text">
               <h4>PayPal's Project</h4>
               <h3>Merchant's Tenancy Level Experience</h3>
@@ -178,6 +155,29 @@ const Home = () => {
               src="3.png"
               alt="Screenshot of the Wall of Wonder Collections."
             />
+          </article>
+          <article className="reverse">
+            <div className="text">
+              <h4>Master's Course Project</h4>
+              <h3>Smart Plate!</h3>
+              <p className="blackbox">
+                Project is about providing the nutritional facts for a food
+                product through RFID scanning. . You can watch the working demo
+                in my youtube channel{" "}
+                <a href="https://www.youtube.com/watch?v=a3w_cn20VNg">click</a>
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Jquery</li>
+                <li>Node.js</li>
+                <li>Socket.io</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+            <img src="6.png" alt="Screen shot of smart plate project." />
           </article>
         </section>
       </div>
