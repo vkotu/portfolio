@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 const About = () => {
   return (
@@ -7,20 +7,20 @@ const About = () => {
         <ul>
           <li>
             <h1>
-              <Link to="/">
+              <NavHashLink to="/">
                 <span className="fa-solid fa-code" area-hidden="true"></span>
                 <span>Venkat Kotu</span>
-              </Link>
+              </NavHashLink>
             </h1>
           </li>
           <li>
-            <Link to="/">Projects</Link>
+            <NavHashLink to="/#projects">Projects</NavHashLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <NavHashLink to="/about">About</NavHashLink>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <NavHashLink to="/#contact">Contact</NavHashLink>
           </li>
           <li>
             <a
