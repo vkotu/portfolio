@@ -1,6 +1,5 @@
 {
   "version": 2,
   "name": "portfolio-vkotu",
-  "builds": [{ "src": "/dist/backend/index.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/dist/backend/index.js" }]
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api" }]
 }

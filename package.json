@@ -2,10 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "mywebsite",
-  "main": "dist/backend/index.js",
-  "engines": {
-    "node": "14.x"
-  },
+  "main": "server/index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
