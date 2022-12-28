@@ -21,7 +21,7 @@ app.use("/", (req, res) => {
     </StaticRouter>
   );
   res.send(parts[0] + renderToString(reactMarkup) + parts[1]);
-  // stream
+  // stream way of rendering
   // res.write(parts[0]);
   // const reactMarkup = (
   //     <StaticRouter location={req.url}>
