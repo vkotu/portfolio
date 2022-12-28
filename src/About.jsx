@@ -1,4 +1,6 @@
-import { NavHashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -7,20 +9,20 @@ const About = () => {
         <ul>
           <li>
             <h1>
-              <NavHashLink to="/">
+              <Link to="/">
                 <span className="fa-solid fa-code" area-hidden="true"></span>
                 <span>Venkat Kotu</span>
-              </NavHashLink>
+              </Link>
             </h1>
           </li>
           <li>
-            <NavHashLink to="/#projects">Projects</NavHashLink>
+            <HashLink to="/#projects">Projects</HashLink>
           </li>
           <li>
-            <NavHashLink to="/about">About</NavHashLink>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <NavHashLink to="/#contact">Contact</NavHashLink>
+            <HashLink to="/#contact">Contact</HashLink>
           </li>
           <li>
             <a
@@ -83,38 +85,12 @@ const About = () => {
                 <li>Skiing</li>
               </ul>
             </div>
-            <img src="9.png" alt="Screenshot of profile pic." />
+            <img src="/9.png" alt="Screenshot of profile pic." />
           </article>
         </section>
       </div>
       <div className="gradient"></div>
-      <footer>
-        <h2>Venkat Kotu - Sr Software Engineer</h2>
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/venkatasaireddy/">
-              <span className="fa-brands fa-linkedin" aria-hidden="true"></span>{" "}
-              <span className="sr-only">LinkedIn</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/vkotu">
-              <span className="fa-brands fa-github" aria-hidden="true"></span>
-              <span className="sr-only">Github</span>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:vkotu24@gmail.com">
-              <span className="fa-solid fa-envelope" aria-hidden="true"></span>
-              <span className="sr-only">Email</span>
-            </a>
-          </li>
-        </ul>
-
-        <p>
-          <small>&copy; 2022 Venkat kotu. All rights reserved.</small>
-        </p>
-      </footer>
+      <Footer />
     </div>
   );
 };
