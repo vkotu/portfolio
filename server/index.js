@@ -48,3 +48,5 @@ app.listen(PORT, (err) => {
 //     res.write(parts[1]);
 //     res.end();
 // })
+
+module.exports = app;
