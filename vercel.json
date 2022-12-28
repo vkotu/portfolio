@@ -1,3 +1,4 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/dist/backend/index" }]
 }
