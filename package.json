@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "mywebsite",
-  "main": "server/index.js",
+  "main": "api/index.js",
   "scripts": {
     "format": "prettier --write \"src/**/*{js,jsx}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -37,7 +37,7 @@
       "publicUrl": "/frontend"
     },
     "backend": {
-      "source": "server/index.js",
+      "source": "api/index.js",
       "optimize": false,
       "context": "node",
       "engines": {
