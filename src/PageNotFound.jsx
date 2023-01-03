@@ -1,9 +1,8 @@
+// import { NavHashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
-import Contact from "./Contact";
 import Footer from "./Footer";
-import Projects from "./Projects";
 
-const Home = () => {
+const About = () => {
   return (
     <div>
       <nav>
@@ -15,15 +14,6 @@ const Home = () => {
                 <span>Venkat Kotu</span>
               </Link>
             </h1>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
           </li>
           <li>
             <a
@@ -51,33 +41,19 @@ const Home = () => {
           </li>
         </ul>
       </nav>
-      <section id="intro">
-        <p className="name">
-          Hi, my name is <span>Venkat Kotu.</span>
-        </p>
-
-        <h2>Passionate JavaScript Developer</h2>
-
-        <p>
-          Currently, I'm working as a member of technical staff at{" "}
-          <a href="https://paypal.com/mep">PayPal</a>.
-        </p>
-        <p>
-          I'm leading a team of 6 engineers doing full stack things with
-          bleeding-edge JavaScript, ReactJS, Node.js, and GraphQL etc. to enable
-          better products for Merchants.
-        </p>
-      </section>
       <div className="gradient"></div>
       <div className="section-blue">
-        <Projects />
+        <section id="projects">
+          <h2>Uh Oh!</h2>
+          <article>
+            <img src="/error.png" alt="Page not found!" />
+          </article>
+        </section>
       </div>
-      <div className="gradient"></div>
-      <Contact />
       <div className="gradient"></div>
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default About;
