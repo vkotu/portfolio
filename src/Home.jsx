@@ -56,11 +56,11 @@ const Home = () => {
         <h2>Passionate JavaScript Developer</h2>
 
         <p>
-          Currently, I'm working as a memeber of techinical staff at{" "}
+          Currently, I'm working as a member of technical staff at{" "}
           <a href="https://paypal.com/mep">PayPal</a>.
         </p>
         <p>
-          I'm leading a team of engineers doing full stack things with
+          I'm leading a team of 6 engineers doing full stack things with
           bleeding-edge JavaScript, ReactJS, Node.js, and GraphQL etc. to enable
           better products for Merchants.
         </p>
