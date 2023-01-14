@@ -88,6 +88,28 @@ const Projects = () => {
       </article>
       <article className="reverse">
         <div className="text">
+          <h4>Personal learning project</h4>
+          <h3>Music app like a spotify</h3>
+          <p className="blackbox">
+            This project was developed during a next.js workshop. I Learned a lot
+            about next.js framework and how to build applications securely while working on this project.
+          </p>
+          <h4>Technologies used include:</h4>
+          <ul>
+            <li>HTML</li>
+            <li>Next.js</li>
+            <li>ReactJS</li>
+            <li>ChakraUI</li>
+            <li>Parcel</li>
+          </ul>
+        </div>
+        <img
+          src="/music.png"
+          alt="Screenshot of the Wall of Wonder Collections."
+        />
+      </article>
+      <article>
+        <div className="text">
           <h4>Master's Course Project</h4>
           <h3>Smart Plate!</h3>
           <p className="blackbox">
