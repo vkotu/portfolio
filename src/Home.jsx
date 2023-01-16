@@ -38,11 +38,11 @@ const Home = () => {
             <a href="https://github.com/vkotu" target="_blank">
               <span className="fa-brands fa-github" aria-hidden="true"></span>
               <span className="sr-only">Github</span>
-            </a>
+            </a>https://drive.google.com/file/d/1IsEN91WTLGfGfYIQzZr9HENT633nPcIa/view
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/17ZtCNdYFylCuAvIPpiaqB4_4fdfhW5el/view?usp=sharing"
+              href="https://drive.google.com/file/d/1IsEN91WTLGfGfYIQzZr9HENT633nPcIa/view?usp=sharing"
               className="button"
               target="_blank"
             >
