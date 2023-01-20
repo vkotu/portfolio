@@ -1,9 +1,10 @@
 import { createRoot } from "react-dom/client";
+import { inject } from "@vercel/analytics";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
 import PageNotFound from "./PageNotFound";
-
+inject();
 const App = () => {
   return (
     <div>
