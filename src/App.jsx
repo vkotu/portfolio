@@ -4,9 +4,12 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
 import PageNotFound from "./PageNotFound";
+import { useEffect } from "react";
 
 const App = () => {
-  inject();
+  useEffect(() => {
+    inject();
+  }, []);
   return (
     <div>
       <BrowserRouter>
