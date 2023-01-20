@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import About from "./About";
 import Home from "./Home";
 import PageNotFound from "./PageNotFound";
-inject();
+
 const App = () => {
+  inject();
   return (
     <div>
       <BrowserRouter>
